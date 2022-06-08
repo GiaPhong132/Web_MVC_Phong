@@ -22,4 +22,4 @@ if (isset($_GET['page'])) {
     $controller = 'layouts';
     $action = 'index';
 }
-require_once('routes.php');
+require_once('/xampp/htdocs/MVC_Phong/routes.php');

@@ -35,7 +35,7 @@
         <div class="container-login100" style="background-image: url('/MVC_PHONG/public/images/bg-01.jpg');">
             <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
 
-                <form class="login100-form validate-form">
+                <form action="" method="POST" class="login100-form validate-form">
 
                     <span class="login100-form-title p-b-49">
                         Register
@@ -58,13 +58,13 @@
 
                     <div class="wrap-input100 validate-input m-b-23" data-validate="First is required">
                         <span class="label-input100">First Name</span>
-                        <input class="input100" type="text" name="firstname" placeholder="Type your first name">
+                        <input class="input100" type="text" name="first_name" placeholder="Type your first name">
                         <span class="focus-input100" data-symbol="&#xf206;"></span>
                     </div>
 
                     <div class="wrap-input100 validate-input m-b-23" data-validate="Last name is required">
                         <span class="label-input100">Last name</span>
-                        <input class="input100" type="text" name="lastname" placeholder="Type your last name">
+                        <input class="input100" type="text" name="last_name" placeholder="Type your last name">
                         <span class="focus-input100" data-symbol="&#xf206;"></span>
                     </div>
 
@@ -76,21 +76,21 @@
 
                     <div class="wrap-input100 validate-input m-b-23" data-validate="Phone number is required">
                         <span class="label-input100">Phone number</span>
-                        <input class="input100" type="text" name="phonenumber" placeholder="Type your phone number">
+                        <input class="input100" type="text" name="phone_number" placeholder="Type your phone number">
                         <span class="focus-input100" data-symbol="&#9742;"></span>
                     </div>
 
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
                         <span class="label-input100">Password</span>
-                        <input class="input100" type="password" name="pass" placeholder="Type your password">
-                        <span class="focus-input100" data-symbol="&#xf190;"></span>
+                        <input class="input100" type="password" name="password" placeholder="Type your password">
+                        <span style="color: rgb(0, 0, 0);" class="focus-input100" data-symbol="&#9919;"></span>
                     </div>
 
                     <!--Remember to Check password with retype password is match with password -->
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
                         <span class="label-input100">Retype-Password</span>
-                        <input class="input100" type="retype_password" name="pass" placeholder="Retype your password">
-                        <span class="focus-input100" data-symbol="&#xf192;"></span>
+                        <input class="input100" type="retype_password" name="retype_password" placeholder="Retype your password">
+                        <span class="focus-input100" data-symbol="&#9919;"></span>
                     </div>
 
                     <div class="form-check" style="padding-left: 0;">
@@ -104,7 +104,7 @@
                         <label class="form-check-label">Nam</label>
                     </div>
 
-                    <div class="form-check form-check-inline" style="padding-left: 1cm;">
+                    <div class="form-check form-check-inline" style="padding-left: 0.5cm;">
                         <input class="form-check-input" type="radio" name="gender" value="0">
                         <label class="form-check-label">Nữ</label>
                     </div>
