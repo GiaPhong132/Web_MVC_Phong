@@ -40,7 +40,8 @@ a {
   text-decoration: none;
 }
 .item a:hover {
-  border-bottom: 2px solid #fff;
+  border: 2px solid #fff;
+  background-color: #0056b3;
   transition: all 0.2s ease-out;
 }
 .logo a:hover {
@@ -71,12 +72,12 @@ a {
   order: 1;
 }
 .item.button {
-  order: 2;
+  order: 3;
 }
 .item {
   width: 100%;
   text-align: center;
-  order: 3;
+  order: 2;
   display: none;
 }
 .item.active {
@@ -117,8 +118,8 @@ a {
 }
 
 .button a {
-  padding: 7.5px 15px;
-  background: teal;
+  padding: 7.5px 15px 7.5px 15px;
+  background: #006d6d;
   border: 1px #006d6d solid;
   border-radius:50em;
 }
@@ -130,11 +131,11 @@ a {
   transition:all .25s;
 }
 .button:not(.secondary) a:hover {
-  background: #006d6d;
+  background: teal;
   border-color: #005959;
 }
 .button.secondary a:hover {
-  color: #ddd;
+  color: teal;
 } 
 
 /* Desktop menu */
@@ -157,7 +158,6 @@ a {
   .button
   {
       order: 2;
-      float:right;
   }
   .navbar{
     height:10vh;
@@ -168,7 +168,5 @@ a {
   .menu li {
       padding: 10px 20px 10px 20px;
   }
-  .menu li.button {
-      padding-right: 0;
-  }
+  
 }

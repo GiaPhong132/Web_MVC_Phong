@@ -13,10 +13,13 @@
             <div class="carousel-caption d-none d-md-block">
                 <h5>Welcome to Homepage</h5>
                 <p>Place to improve your security.</p>
+                <button class="button effect1">
+                    Get Started!
+                </button>
             </div>
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="../../../public/images/bg-01.jpg" alt="Second slide">
+            <img class="d-block w-100" src="../../../public/images/bg-banner-1.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
             <img class="d-block w-100" src="../../../public/images/bg-banner-1.jpg" alt="Third slide">
