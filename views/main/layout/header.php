@@ -44,7 +44,9 @@
 
         })
     </script>
+  <!--Slick -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>    
 
- 
 </head>
 <body>

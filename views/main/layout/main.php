@@ -1,13 +1,15 @@
 <section id="about-us" >
-    <div class="container" data-aos="zoom-in"></div>
-        <div class="row content">
+    <div class="about-us" data-aos="zoom-in"></div>
+      <div class="section-title">
+          <h2>Về chúng tôi</h2>
+      </div>
+      <div class="row content">
           <div class="col-lg-6" data-aos="fade-right">
             <h2>Kiến tạo công nghệ và Phát triển con người. Vì một cuộc sống tốt đẹp hơn</h2>
-            <h3>VNGREEN tin vào sức mạnh thay đổi cuộc sống của Internet và không ngừng phát triển để mang đến cho người dùng những trải nghiệm ý nghĩa.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
             <p>
-              Thế mạnh của VNGREEN chính là con người và văn hóa doanh nghiệp. Dựa vào kim chỉ nam là 3 giá trị cốt lõi, các thành viên ở VNGREEN luôn có tinh thần cống hiến vì sự phát triển chung của VNGREEN và cộng đồng. Giá trị cốt lõi mà VNGREEN hướng tới là:
+              Thế mạnh của chính là con người và văn hóa doanh nghiệp. Dựa vào kim chỉ nam là 3 giá trị cốt lõi, các thành viên ở VNGREEN luôn có tinh thần cống hiến vì sự phát triển chung của VNGREEN và cộng đồng. Giá trị cốt lõi mà VNGREEN hướng tới là:
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> Đón Nhận Thách Thức</li>
@@ -23,7 +25,21 @@
 
 </section>
 
-<section id="services" class="section-bg">
+<section id="clients">
+  <!-- use slick sáng làm--> 
+    <div class="clients-container" data-aos="fade-in">
+    <div class="section-title">
+          <h2>Các công ty đồng hành & tin tưởng</h2>
+      </div>
+    <div class="slick-list draggable">
+      <div>your content</div>
+      <div>your content</div>
+      <div>your content</div>
+    </div>
+    </div>
+</section>
+
+<section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Sản phẩm</h2>
@@ -91,8 +107,3 @@
     </div>
 </section>
 
-<section id="clients">
-    <div class="clients-container" data-aos="zoom-in">
-        <h1>Hello</h1>
-    </div>
-</section>
